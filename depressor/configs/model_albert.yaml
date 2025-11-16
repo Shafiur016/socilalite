@@ -1,0 +1,8 @@
+model:
+  name: albert-base-v2
+  max_length: 256
+  dropout: 0.3
+  task: emotion
+optimizer:
+  lr: 2e-5
+  weight_decay: 0.01

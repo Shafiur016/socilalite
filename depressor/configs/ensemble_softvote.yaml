@@ -1,0 +1,9 @@
+ensemble:
+  strategy: validation_weighted_softvote
+  thresholds:
+    grid: [0.3, 0.4, 0.5, 0.6, 0.7]
+  backbones:
+    - configs/model_distilbert.yaml
+    - configs/model_albert.yaml
+    - configs/model_xlmr.yaml
+    - configs/model_deberta_bilstm.yaml

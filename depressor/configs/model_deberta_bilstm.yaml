@@ -1,0 +1,10 @@
+model:
+  name: microsoft/deberta-v3-base
+  head: bilstm
+  lstm_hidden: 256
+  max_length: 256
+  dropout: 0.3
+  task: emotion
+optimizer:
+  lr: 2e-5
+  weight_decay: 0.01
