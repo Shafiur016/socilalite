@@ -1,0 +1,11 @@
+dataset: DepressionEmo
+labels:
+  type: multi_label
+  classes: [anger, anxiety, cognitive_dysfunction, emotional_pain, hopelessness, irritability, suicidal_intent, worthlessness]
+splits:
+  train: data/processed/emotion/train.jsonl
+  val: data/processed/emotion/val.jsonl
+  test: data/processed/emotion/test.jsonl
+stratification:
+  method: iterative
+  folds: 5

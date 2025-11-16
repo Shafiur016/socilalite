@@ -1,0 +1,10 @@
+# Core runtime dependencies (pin exact versions when adding)
+torch==2.3.1
+transformers==4.36.2
+scikit-learn==1.4.2
+pandas==2.1.4
+numpy==1.26.4
+tqdm==4.66.2
+loguru==0.7.2
+flask==3.0.2
+pydantic==2.6.4

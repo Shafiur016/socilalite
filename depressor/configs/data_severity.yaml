@@ -1,0 +1,11 @@
+dataset: MDSD
+labels:
+  type: multi_class
+  classes: [minimal, mild, moderate, severe]
+splits:
+  train: data/processed/severity/train.jsonl
+  val: data/processed/severity/val.jsonl
+  test: data/processed/severity/test.jsonl
+stratification:
+  method: stratified
+  folds: 5

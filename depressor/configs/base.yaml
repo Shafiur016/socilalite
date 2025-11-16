@@ -1,0 +1,8 @@
+seed: 42
+output_dir: outputs
+logging:
+  level: INFO
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+paths:
+  data_root: data
+  cache_dir: .cache
